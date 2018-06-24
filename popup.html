@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TrackPond: Music Tracker</title>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popup.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main-content">
+        <div class="header">
+            <ul>
+                <li id="plays"><p>Plays</p></li>
+                <li id="top-tracks"><p>Top Tracks</p></li>
+                <li id="connect"><h6>Connect</h6>
+                    <a href="https://accounts.spotify.com/authorize/?client_id=84aa4ce44f674897949f684ffb2fa341&response_type=code&redirect_uri=http://trackpond.craigchisholm.me/connect/?source=spotify&scope=user-read-private%20user-read-email&state=spotify">
+                        <img src="./img/sp-icon.png" class="icon" />
+                    </a>
+                    <a href="https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/youtube&access_type=offline&include_granted_scopes=true&redirect_uri=http://trackpond.craigchisholm.me/connect/?source=youtube&response_type=code&client_id=138806318897-10ab2q5qi8tq07nl6s3u050i7iq7hq91.apps.googleusercontent.com">
+                        <img src="./img/yt-icon.png" class="icon" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="track-list">
+            <h2>Connect an account to get started!</h2><br >
+             <a href="https://accounts.spotify.com/authorize/?client_id=84aa4ce44f674897949f684ffb2fa341&response_type=code&redirect_uri=http://trackpond.craigchisholm.me/connect/?source=spotify&scope=user-read-private%20user-read-email&state=spotify">
+                <img src="./img/sp-icon.png" class="connect-icon" />
+            </a>
+            <a href="https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/youtube&access_type=offline&include_granted_scopes=true&redirect_uri=http://trackpond.craigchisholm.me/connect/?source=youtube&response_type=code&client_id=138806318897-10ab2q5qi8tq07nl6s3u050i7iq7hq91.apps.googleusercontent.com">
+                <img src="./img/yt-icon.png" class="connect-icon" />
+            </a>
+        </div>
+
+    </body>
+</html>
