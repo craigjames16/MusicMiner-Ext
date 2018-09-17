@@ -1,4 +1,4 @@
-var API_URL = 'http://musicminer-prod.ca-central-1.elasticbeanstalk.com/';
+var API_URL = 'http://MusicMiner-dev.ca-central-1.elasticbeanstalk.com';
 // var API_URL = 'http://localhost:8000';
 
 function checkSourceFromUrl(url) {
